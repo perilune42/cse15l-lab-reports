@@ -1,6 +1,6 @@
 Hello, World!
 # Big
-**Thicc**
+**Thicc** 
 [video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 > Quote
 ---
