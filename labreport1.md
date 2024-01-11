@@ -10,6 +10,7 @@ No arguments:
 *Working directory:* `/home/lecture1` \
 Changes the working directory to `/home` by default when no argument are provided. \
 **No Errors**
+
 ***
 Directory as argument: 
 ```
@@ -19,6 +20,7 @@ Directory as argument:
 *Working directory:* `/home/lecture1` \
 Changes the working directory to the provided argument `messages/`. \
 **No Errors**
+
 ***
 File as argument:
 ```
