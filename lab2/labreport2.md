@@ -64,7 +64,26 @@ After accepting the request, the web page returns all messages accepted so far.
 
 Here are two examples of the web server in action:
 
-![P1 Example 1](/P1Example1.png)
-Here, the `handleRequest` method is called with the entire URL as the argument, then the message "Hello!" and user "Joe" are identified from the URL. Then, the `addMessage` method is called using the user "Joe" and the message "Hello!" as arguments to add the formatted message into the list `messages` which contains all stored messages. Finally, the `showMessages` method is called to display all stored messages so far in one string, which so far only contains the first message. In the entire class, the `messages` field changed when the string `Joe: Hello!` is added.
+![P1 Example 1](P1Example1.png)
+Here, the `handleRequest` method is called with the entire URL as the argument, then the message "Hello!" and user "Joe" are identified from the URL. Then, the `addMessage` method is called using the user "Joe" and the message "Hello!" as arguments to add the formatted message into the list `messages` which contains all stored messages. Finally, the `showMessages` method is called to display all stored messages in one string, which so far only contains the first message. In the entire class, only the `messages` field changed when the string `Joe: Hello!` is added.
+
+![P1 Example 2](P1Example2.png)
+Again, the `handleRequest` method is called with the entire URL as the argument, then the message "How are you?" and user "Bob" are identified from the URL. Then, the `addMessage` method is called using the user "Bob" and the message "How are you?" as arguments to add the formatted message into the list `messages`. Finally, the `showMessages` method is called to display all stored messages so far in one string, which now contains the previous message and this message. The `messages` field updated when the string "Bob: How are you?" is added.
+***
+**Part 2**
+
+SSH keys are generated on the user's machine as a private key and on the remote machine as a public key. This allows logging into remote machines without needing authentication.
+
+Private key path (on my machine):
+![P2 Private Key](P2PrivateKey.png)
+
+Public key path (on `ieng6`):
+![P2 Private Key](P2PrivateKey.png)
+
+Logging into `ieng6` without needing to provide a password:
+![P2 Login](P2Login.png)
+
+***
+**Part 3**
 
 
