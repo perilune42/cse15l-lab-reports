@@ -1,4 +1,4 @@
-# CSE 12 Lab Report 2
+# CSE 15L Lab Report 2
 **Part 1**
 
 A web server is created to take queries from incoming requests and format them into a message board.
