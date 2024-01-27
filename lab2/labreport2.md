@@ -75,15 +75,21 @@ Again, the `handleRequest` method is called with the entire URL as the argument,
 SSH keys are generated on the user's machine as a private key and on the remote machine as a public key. This allows logging into remote machines without needing authentication.
 
 Private key path (on my machine):
+
 ![P2 Private Key](P2PrivateKey.png)
 
 Public key path (on `ieng6`):
+
 ![P2 Private Key](P2PrivateKey.png)
 
 Logging into `ieng6` without needing to provide a password:
+
 ![P2 Login](P2Login.png)
 
 ***
 **Part 3**
 
+In Lab 2, I learned that URLs can be handled using a java file and queries can be taken as inputs. I also learned how to host a web server on my local machine.
+
+In Lab 3, I learned that it is possible to authorize users using ssh to access a remote machine without a password.
 
