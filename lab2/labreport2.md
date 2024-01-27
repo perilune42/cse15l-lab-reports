@@ -69,7 +69,9 @@ Here, the `handleRequest` method is called with the entire URL as the argument, 
 
 ![P1 Example 2](P1Example2.png)
 Again, the `handleRequest` method is called with the entire URL as the argument, then the message "How are you?" and user "Bob" are identified from the URL. Then, the `addMessage` method is called using the user "Bob" and the message "How are you?" as arguments to add the formatted message into the list `messages`. Finally, the `showMessages` method is called to display all stored messages so far in one string, which now contains the previous message and this message. The `messages` field updated when the string "Bob: How are you?" is added.
-***
+
+---
+
 **Part 2**
 
 SSH keys are generated on the user's machine as a private key and on the remote machine as a public key. This allows logging into remote machines without needing authentication.
@@ -86,7 +88,8 @@ Logging into `ieng6` without needing to provide a password:
 
 ![P2 Login](P2Login.png)
 
-***
+---
+
 **Part 3**
 
 In Lab 2, I learned that URLs can be handled using a java file and queries can be taken as inputs. I also learned how to host a web server on my local machine.
