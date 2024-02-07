@@ -82,7 +82,7 @@ Private key path (on my machine):
 
 Public key path (on `ieng6`):
 
-![P2 Private Key](P2PrivateKey.png)
+![P2 Public Key](P2PublicKey.png)
 
 Logging into `ieng6` without needing to provide a password:
 
