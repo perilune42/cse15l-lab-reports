@@ -71,11 +71,11 @@ We will be using the `technical/biomed/` sample directory taken from https://anc
 
 The `-E` option allows searching for strings using an extended regex, which allows more advanced pattern matching.
 
-Prompt:
+**Prompt:**
 ```
 grep -E "genetic|cellular" technical/biomed/*.txt
 ```
-Output:
+**Output:**
 ```
 technical/biomed/1468-6708-3-7.txt:          interstitial fluid volume, and extracellular fluid volume
 technical/biomed/1468-6708-3-7.txt:          Other mechanisms for cellular injury have been
@@ -87,12 +87,12 @@ technical/biomed/1471-2091-2-10.txt:          may reside in integrin α chain ex
 
 Here, a regex statement with the `|` (or) operator is used to match patterns that either contain the "genetic" or "cellular" string.
 
-Prompt:
+**Prompt:**
 ```
-$ grep -E "[0-9]" technical/biomed/*.txt | head -n 5
+$ grep -E "[0-9]" technical/biomed/*.txt
 ```
 
-Output:
+**Output:**
 ```
 technical/biomed/1468-6708-3-1.txt:        associated with increased mortality in those over age 65.
 technical/biomed/1468-6708-3-1.txt:        for relevant covariates [ 1 2 3 4 5 6 ] . All studies found
@@ -113,14 +113,13 @@ Sources used: `man` command, https://developer.mozilla.org/en-US/docs/Web/JavaSc
 
 The `-c` option causes the command to return only the number of occurrence of matched patterns in each file.
 
-Prompt:
+**Prompt:**
 ```
 $ grep -c "cellular" technical/biomed/*.txt
 ```
 
-Output:
+**Output:**
 ```
-$ grep -c "cellular" technical/biomed/*.txt | head -n 5
 technical/biomed/1468-6708-3-1.txt:0
 technical/biomed/1468-6708-3-10.txt:0
 technical/biomed/1468-6708-3-3.txt:0
@@ -131,11 +130,11 @@ technical/biomed/1468-6708-3-7.txt:3
 
 Here, the "cellular" string is counted in each file in the `biomed/` directory.
 
-Prompt:
+**Prompt:**
 ```
 $ grep -c "the" technical/911report/*.txt
 ```
-Output:
+**Output:**
 ```
 technical/911report/chapter-1.txt:313
 technical/911report/chapter-10.txt:336
@@ -155,12 +154,12 @@ Sources used: `man` command
 
 The `-o` option causes grep to only output the matched strings instead of including the surrounding words.
 
-Prompt:
+**Prompt:**
 ```
 $ grep -o "cellular" technical/biomed/*.txt
 ```
 
-Output:
+**Output:**
 ```
 technical/biomed/1468-6708-3-7.txt:cellular
 technical/biomed/1468-6708-3-7.txt:cellular
@@ -172,11 +171,11 @@ technical/biomed/1471-2091-2-10.txt:cellular
 
 Here, the "cellular" strings are located in the `biomed/` directory and only the strings themselves are returned.
 
-Prompt:
+**Prompt:**
 ```
 $ grep -o -E "genetic|cellular" technical/biomed/*.txt 
 ```
-Output:
+**Output:**
 ```
 technical/biomed/1468-6708-3-7.txt:cellular
 technical/biomed/1468-6708-3-7.txt:cellular
@@ -194,12 +193,12 @@ Here, the command locates either "genetic" or "cellular" in the `biomed/` direct
 
 The `-r` option allows recursive searching of an input directory instead of just files.
 
-Prompt:
+**Prompt:**
 ```
 $ grep -r "directory" technical/
 ```
 
-Output:
+**Output:**
 ```
 technical/911report/chapter-13.4.txt:                telephone book, he gave them another directory "possibly covering Long Beach,
 technical/911report/chapter-7.txt:                listing Hazmi in the telephone directory. They managed to avoid attracting much
@@ -210,11 +209,11 @@ technical/biomed/1471-2164-3-4.txt:        file is located in the root directory
 ```
 Here, the command looks for the "command" string recursively in all subdirectories in the `technical/` directory. Note that the `-r` option allows the input path to be a directory, whereas normally it would throw an error.
 
-Prompt:
+**Prompt:**
 ```
 $ grep -r "1234" technical/
 ```
-Output:
+**Output:**
 ```
 technical/biomed/1471-2172-4-2.txt:          Life Sciences) and read in a 1234 Delfia Fluorometer
 technical/biomed/gb-2003-4-2-r9.txt:            (AF251193), a metalloprotease falcilysine, (AF123458),
