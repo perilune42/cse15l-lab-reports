@@ -60,7 +60,7 @@ static void reverseInPlace(int[] arr) {
 
 The `grep` UNIX command is useful for locating specific strings contained in files. Here we will explore some useful command-line options for different use cases.
 
-We will be using the `technical/biomed/` sample directory taken from https://anc.org/data/oanc/download/ to test out the `grep` command.
+We will be using the `technical/` sample directory taken from https://anc.org/data/oanc/download/ to test out the `grep` command.
 
 
 *Note: all outputs below are truncated to include at most the first 5 lines (using `| head -n 5`) to reduce length.*
