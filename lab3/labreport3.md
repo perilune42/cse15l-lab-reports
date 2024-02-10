@@ -187,6 +187,7 @@ technical/biomed/1471-2091-2-10.txt:cellular
 
 Here, the command locates either "genetic" or "cellular" in the `biomed/` directory and only the strings themselves are returned.
 
+Sources used: `man` command
 ***
 
 **`grep -r PATTERN PATH`**
@@ -220,3 +221,5 @@ technical/biomed/gb-2003-4-2-r9.txt:            (AF251193), a metalloprotease fa
 technical/government/Env_Prot_Agen/tech_adden.txt:Medicine 150: 1234-1242.
 ```
 Here, the command looks for the "1234" string recursively in all subdirectories in the `technical/` directory. 
+
+Sources used: `man` command
