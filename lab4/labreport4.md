@@ -6,7 +6,7 @@ In this lab report we will clone a git repository, find and fix a bug in the cod
 
 ![alt text](image-12.png)
 
-In the terminal, type `ssh <user>@ieng6.ucsd.edu` and press Enter, replacing \<user> with your username. If the `ssh` authentication keys are set up beforehand, login credentials will not be needed.
+In the terminal, type `ssh kamei@ieng6.ucsd.edu` and press Enter, where `kamei` is the username. If the `ssh` authentication keys are set up beforehand, login credentials will not be needed.
 
 ![alt text](image-13.png)
 
@@ -16,9 +16,9 @@ We are now logged in to `ieng6` and can begin our tasks.
 ## Step 2: Clone the git repository
 ![alt text](<Screenshot 2024-02-22 112401.png>)
 
-Go to the repository on Github and copy its SSH path. For this case, the address is `git@github.com:perilune42/lab7.git`.
+Go to the repository on Github and copy its SSH path with `<Ctrl+C>`. For this case, the address is `git@github.com:perilune42/lab7.git`.
 
-In the terminal, type `git clone `, paste in the path, then press Enter. The repository will begin to download.
+In the terminal, type `git clone `, paste in the path using `<Ctrl+V>` (or `<Shift+Insert>` if using the Git Bash terminal), then press Enter. The repository will begin to download.
 
 After the clone is finished, change into the `lab7` directory by inputting `cd lab7<Enter>`. We are now ready to access the files in `lab7`.
 
