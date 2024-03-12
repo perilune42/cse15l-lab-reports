@@ -1,4 +1,4 @@
-# CSE 15L Lab Report 4
+# CSE 15L Lab Report 5
 
 **Part 1**
 
@@ -24,6 +24,7 @@ done
 ```
 
 But when I check the files created by the bash script, there is always nothing in them. I think bash is not processing the java output properly. HELP!!!!!
+
 ![alt text](image-1.png)
 
 
@@ -78,7 +79,7 @@ done
 
 To trigger the bug: execute the bash script by running `bash reverse-files.sh`. 
 
-To fix the bug: Change `System.err.println(revString);` to `System.out.println(revString);` in `Reverse.java`, changing `err` to `out` and directing the output of java to the standard output stream.
+To fix the bug: Change `System.err.println(revString);` to `System.out.println(revString);` in `Reverse.java`, changing `err` to `out` and directing the output of java to the standard output stream. Recompile the file after the edit by running `javac Reverse.java`.
 
 ***
 
